@@ -22,7 +22,7 @@ CODEBOOK = {
 
 
 # ==========================================
-# 2. ĐỘNG CƠ BÓC TÁCH PDF
+# 2. Phân tích PDF
 # ==========================================
 def process_local_pdf(file_path):
     try:
@@ -33,7 +33,7 @@ def process_local_pdf(file_path):
         clean_text = " ".join(full_text.lower().split())
         total_words = len(clean_text.split())
 
-        # Bẫy lỗi: File rỗng hoặc File Scan (PDF ảnh)
+        # File rỗng hoặc File Scan (PDF ảnh)
         if total_words == 0:
             print(f"  -> [CẢNH BÁO] File {file_path} không có văn bản (Khả năng là PDF Scan).")
             return None
@@ -59,7 +59,7 @@ def process_local_pdf(file_path):
 
 
 # ==========================================
-# 3. ĐỊNH TUYẾN DỮ LIỆU
+# 3. DỮ LIỆU
 # ==========================================
 thu_muc_hien_tai = os.path.dirname(os.path.abspath(__file__))
 
@@ -99,7 +99,7 @@ danh_sach_db = [
 ]
 
 # ==========================================
-# 4. VẬN HÀNH & XUẤT KHỐI DỮ LIỆU
+# 4. VẬN HÀNH & XUẤT DỮ LIỆU
 # ==========================================
 print("--- KHỞI ĐỘNG CỖ MÁY PDF ---")
 final_data = []
