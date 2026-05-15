@@ -70,7 +70,7 @@ danh_sach_db = [
     {"Ten": "Đại biểu LƯU NAM TIẾN", "GioiTinh": "Nam", "File_Name": os.path.join(thu_muc_hien_tai, "2.pdf")},
     {"Ten": "Đại biểu TRẦN VIỆT ANH", "GioiTinh": "Nam", "File_Name": os.path.join(thu_muc_hien_tai, "4.pdf")},
     {"Ten": "Đại biểu HUỲNH QUYẾT THẮNG", "GioiTinh": "Nam", "File_Name": os.path.join(thu_muc_hien_tai, "6.pdf")},
-    {"Ten": "Đại biểu LÊ KIM ANH", "GioiTinh": "Nữ ", "File_Name": os.path.join(thu_muc_hien_tai, "7.pdf")},
+    {"Ten": "Đại biểu LÊ KIM ANH", "GioiTinh": "Nữ", "File_Name": os.path.join(thu_muc_hien_tai, "7.pdf")},
     {"Ten": "Đại biểu NGUYỄN THỊ HỒNG CHƯƠNG", "GioiTinh": "Nữ", "File_Name": os.path.join(thu_muc_hien_tai, "8.pdf")},
     {"Ten": "Đại biểu NGUYỄN LÂN HIẾU", "GioiTinh": "Nam", "File_Name": os.path.join(thu_muc_hien_tai, "9.pdf")},
     {"Ten": "Đại biểu PHÙNG THỊ HỒNG HÀ", "GioiTinh": "Nữ", "File_Name": os.path.join(thu_muc_hien_tai, "10.pdf")},
